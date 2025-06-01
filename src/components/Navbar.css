@@ -1,0 +1,200 @@
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  html, body {
+    font-size: 16px;
+    font-family: 'Montserrat';
+  }
+
+  a {
+    font-family: 'Montserrat';
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 1.1;
+    color: #333333;
+    text-decoration: none;
+  }
+
+  a:hover {
+    text-decoration: underline;
+    text-underline-offset: 2px;
+  }
+
+  .navbar {
+    position: relative;
+    z-index: 100;
+  }
+
+  .nav-div {
+    background-color: #FBEEEE;
+    display: flex;
+    justify-content: center;
+    padding: 0.5rem 0;
+    border-bottom: 1px solid #f0f0f0;
+    transition: all 0.3s ease;
+  }
+
+  .nav-opt {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+    font-size: 16px;
+    font-weight: 600;
+    list-style: none;
+    width: auto;
+    padding: 0;
+    font-family: 'Montserrat';
+  }
+
+  .nav-opt li {
+    display: flex;
+    align-items: center;
+  }
+
+  .nav-opt li a {
+    padding: 0;
+    margin: 0;
+    line-height: 1.1;
+    font-size: 16px;
+  }
+
+  .blueb, .redb {
+    padding: 6px 16px;
+    font-size: 16px;
+    line-height: 1.2;
+    font-family: 'Montserrat';
+    font-weight: 300;
+    border-radius: 2px;
+  }
+
+  .blueb {
+    border: 1px solid #3851A2;
+    background-color: transparent;
+    color: #3851A2;
+  }
+
+  .blueb:hover {
+    border: 1px solid #E34343;
+    color: #E34343;
+    background-color: transparent;
+    transition: ease 0.3s;
+  }
+
+  .redb {
+    background-color: #E34343;
+    color: white;
+    border: none;
+  }
+
+  .redb:hover {
+    background-color: #3851A2;
+    transition: ease 0.3s;
+  }
+
+  .full-dropdown {
+    display: flex;
+    background-color: #E34343;
+    padding: 2rem 2rem 2rem 1rem;
+    color: white;
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  .dropdown-absolute {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 999;
+  }
+
+  .dropdown-left {
+    /* background-color: #3851A2; */
+    font-size: 16px;
+    width: 22%;
+    padding: 1.0rem;
+    padding-left: 2rem;
+    padding-right: 1rem;
+  }
+
+  .dropdown-description {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 1rem;
+    font-weight: 300;
+  }
+
+  .dropdown-overview {
+    text-decoration: underline dotted;
+    text-underline-offset: 0.2rem;
+    font-weight: bold;
+    margin-top: 0.5rem;
+    display: inline-block;
+    cursor:pointer;
+  }
+
+  .dropdown-right {
+    /* background-color: #3851A2; */
+    display: grid; 
+    gap: 1rem 1rem;
+    padding-left: 2rem;
+    flex-grow: 1;
+  }
+
+  /* Custom for research */
+.grid-research {
+  padding-top: 1.3rem;
+  padding-bottom: 1rem;
+  grid-auto-flow: column;
+  grid-template-rows: repeat(3, auto); /* e.g., 6 links per column */
+}
+
+/* Custom for capabilities */
+.grid-capabilities {
+  padding-top: 1.3rem;
+  grid-auto-flow: column;
+  grid-template-rows: repeat(6, auto); /* e.g., fewer items */
+}
+
+/* Custom for industries */
+.grid-industries {
+  padding-top: 1.3rem;
+  grid-auto-flow: column;
+  grid-template-rows: repeat(4, auto);
+}
+
+/* Custom for resources */
+.grid-resources {
+  padding-top: 1.3rem;
+  grid-auto-flow: column;
+  grid-template-rows: repeat(4, auto);
+}
+
+
+.dropdown-right a {
+    color: white;
+    text-decoration: none;
+    font-weight: 400;
+  }
+
+  .dropdown-right a:hover {
+    text-decoration: underline;
+    text-underline-offset: 0.2rem;
+    transition: ease 0.3s;
+  }
+
+  /* Navbar open state: white + slide left */
+  .navbar-open .nav-div {
+    background-color: #ffffff;
+    transform: translateX(-100px);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  }
+
+  .para-dd{
+    font-weight: 700;
+  }

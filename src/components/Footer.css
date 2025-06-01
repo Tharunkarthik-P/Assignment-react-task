@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow&display=swap');
+.footer{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    height: 38vh;
+    background: rgba(232, 80, 94, 1);
+}
+
+.last-box{
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    top: 262.4rem;
+    left: 89.7rem;
+}
+
+.last-arr{
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    top: 262.8rem;
+    left: 90.5rem;
+    height:2rem;
+    width:2rem;
+    color: white;
+background-color: white;
+}
+
+.copyrights{
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    top: 263rem;
+    left: 11rem;
+    color: white;
+    font-family: "Barlow", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 13px;
+}
+
+.cr{
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    left: 9.9rem;
+    top: 262.77rem;
+    color: white;
+}
+
+.caret-up {
+  width: 20px;
+  height: 20px;
+  border-left: 3px solid white;
+  border-bottom: 3px solid white;
+  transform: rotate(135deg);
+  background: transparent;
+  display: flex;
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  left: 90.8rem;
+  top: 263.25rem;
+}
+
+.white-line {
+display: flex;
+position: absolute;
+justify-content: center;
+align-items: center;
+border: none;
+height: 1px;
+background-color: white;
+width: 100%;
+top: 261.9rem;
+}
+
+.TM{
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    top: 249.8rem;
+    left: 9.8rem;
+    
+}
+
+.circle {
+  width: 40px;
+  height: 40px;
+  background:transparent; /* or any color */
+  border-radius: 50%;
+  border: 2px solid white;
+  display: flex;
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  left: 10.5rem;
+  top: 253.1rem;
+}
+
+.circle2 {
+  width: 40px;
+  height: 40px;
+  background:transparent; /* or any color */
+  border-radius: 50%;
+  border: 2px solid white;
+  display: flex;
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  left: 14rem;
+  top: 253.1rem;
+}
+
+
+.circle3 {
+  width: 40px;
+  height: 40px;
+  background:transparent; /* or any color */
+  border-radius: 50%;
+  border: 2px solid white;
+  display: flex;
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  left: 17.5rem;
+  top: 253.1rem;
+}
+
+.c{
+    display: flex;
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  left: 11.2rem;
+  top: 253.7rem;
+}
+
+.c2{
+    display: flex;
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  left: 14.7rem;
+  top: 253.7rem;
+}
+
+.c3{
+    display: flex;
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  left: 18.1rem;
+  top: 253.7rem;
+}
+
+.footer-columns {
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  top: 249rem;
+  left: 25rem;
+  width: 50%;
+  color: white;
+  font-family: 'Barlow', sans-serif;
+}
+
+.footer-column {
+  display: flex;
+  flex-direction: column;
+  min-width: 180px;
+  margin: 0 0.5rem;
+}
+
+.footer-column h4 {
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.footer-column p {
+  margin: 0.2rem 0;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.footer-column p:hover {
+  text-decoration: underline;
+}

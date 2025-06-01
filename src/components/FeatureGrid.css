@@ -1,0 +1,266 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@500;600;700&display=swap');
+.outer{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+}
+
+.left{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.right{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.imgPhone{
+    position: absolute;
+    top: 5.5rem;
+    left: 11rem;
+    width: 34%;
+    height: auto;
+    z-index: 2;
+}
+
+.imgRectangle{
+    position: absolute;
+    top: 12.9rem;
+    left: 8.9rem;
+    width: 35%;
+    height: auto;
+    /* transform: rotate(180deg); */
+    /* opacity: 0.8; */
+    z-index: 1;
+}
+
+.greenbox{
+    position: absolute;
+    top: 5.4rem;
+    left:31rem;
+    height: 4.3rem;
+    width: 15rem;
+    background-color:rgba(213, 253, 173, 1);
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    border-radius: 3px;
+    font-family: "Barlow", sans-serif;
+    font-size: 21px;
+    font-weight: 500;
+    padding-top: 0.3rem;
+}
+
+.greenbox1{
+    position: absolute;
+    top: 14.5rem;
+    left:29.8rem;
+    height: 4.0rem;
+    width: 17rem;
+    background:transparent;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    border-radius: 3px;
+    font-size: 42px;
+    font-family: "Barlow", sans-serif;
+    font-weight: 600;
+}
+
+.greenbox2{
+    position: absolute;
+    top: 23.2rem;
+    left:29.7rem;
+    height: 4.5rem;
+    width: 17rem;
+    background:transparent;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    border-radius: 3px;
+    font-size: 17px;
+    font-family: "Barlow", sans-serif;
+    font-weight: 300;
+}
+
+.top-left {
+    position: absolute;
+    height: 18.5rem;
+    width: 16rem;
+    left: 2.5rem;
+    top: 3.5rem;
+    border-radius: 5px;
+    border: 2px solid black;         /* Make it thicker */
+    box-sizing: border-box; 
+}
+
+
+.top-right{
+    position: absolute;
+    height: 18.5rem;
+    width: 16rem;
+    left: 20.5rem;
+    top: 3.5rem;
+    border-radius: 5px;
+    border: 2px solid black;         /* Make it thicker */
+    box-sizing: border-box;          /* Prevent content from spilling into border */
+    display: block;                  /* Ensure consistent block rendering */
+    overflow: hidden;
+}
+
+.btm-left{
+    position: absolute;
+    height: 18.5rem;
+    width: 16rem;
+    left: 2.5rem;
+    top: 23.5rem;
+    border-radius: 5px;
+    border: 2px solid black;         /* Make it thicker */
+    box-sizing: border-box;          /* Prevent content from spilling into border */
+    display: block;                  /* Ensure consistent block rendering */
+    overflow: hidden;
+}
+
+.btm-right{
+    position: absolute;
+    height: 18.5rem;
+    width: 16rem;
+    left: 20.5rem;
+    top: 23.5rem;
+    border-radius: 5px;
+    border: 2px solid black;         /* Make it thicker */
+    box-sizing: border-box;          /* Prevent content from spilling into border */
+    display: block;                  /* Ensure consistent block rendering */
+    overflow: hidden;
+}
+
+.top-left:hover, .top-right:hover, .btm-left:hover, .btm-right:hover{
+    background-color: rgba(232, 80, 94, 1);
+    transition: all 0.1s ease;
+}
+
+.arrow-button:hover, .arrow-button-1:hover{
+    background-color: white;
+    color: red;
+    transition: all 0.1s ease;
+}
+
+.tlt, .trt, .blt, .brt{
+    font-weight: 600;
+    font-family: "Barlow", sans-serif;
+    font-size: 16px;
+    margin-top: 0.5rem;
+    margin-left: 0.9rem;
+}
+
+.paratxt{
+    font-family: "Barlow", sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+}
+
+.audience{
+    margin-top: 0.9rem;
+    margin-left: 1.2rem;    
+}
+
+.every{
+    font-family: "Barlow", sans-serif;
+}
+
+.qr{
+    margin-top: 0.5rem;
+    margin-left: 1.2rem;
+}
+.stats{
+    margin-top: 0.4rem;
+    margin-left: 1.2rem;
+}
+
+.noun-arrow{
+    position: absolute;
+    color: white;
+    margin-top: 0rem;
+    margin-left: 12.5rem;
+    /* position: absolute; */
+    z-index: 10;
+    background-color:rgba(232, 80, 94, 1) ;
+    
+}
+
+.red-box{
+    margin-top: 7rem;
+    margin-left: 12.5rem;
+
+}
+
+.arrow-button {
+    background-color: rgba(232, 80, 94, 1);
+    color: white;
+    border-radius: 5px;
+    width: 75px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 43px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-top: 6.4rem;
+    margin-left: 11.2rem
+}
+
+.arrow-button-0 {
+    background-color: rgba(232, 80, 94, 1);
+    color: white;
+    border-radius: 5px;
+    width: 74px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 43px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-top: 6.4rem;
+    margin-left: 11.2rem
+}
+
+.arrow-button-1 {
+    background-color: rgba(232, 80, 94, 1);
+    color: white;
+    border-radius: 5px;
+    width: 75px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 43px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-top: 6rem;
+    margin-left: 11.2rem
+}
+
+Style for arrow buttons inside those cards */
+.arrow-button, .arrow-button-1, .arrow-button-0 {
+    display: flex;
+    color: white;
+    transition: all 0.1s ease;
+}
+
+/* On hover of the parent container, change arrow appearance */
+.top-left:hover .arrow-button-0,
+.top-right:hover .arrow-button,
+.btm-left:hover .arrow-button-1,
+.btm-right:hover .arrow-button-1 {
+    background-color: white;
+    color: rgba(232, 80, 94, 1);
+    transition: all 0.1s ease;  
+}

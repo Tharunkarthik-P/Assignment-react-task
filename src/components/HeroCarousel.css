@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@400;700&display=swap');
+
+*{
+  font-family: "Barlow", sans-serif;
+}
+
+  .hero-carousel {
+    width: 100%;
+    display: block; /* Important: block stacking */
+  }
+
+  .hero1 {
+    display: flex;
+    width: 100%;
+    height: 93.3vh; /* Each hero takes up most of the screen */
+  }
+
+  .hero2 {
+    display: flex;
+    width: 100%;    
+    height: 93.3vh; /* Each hero takes up most of the screen */
+  }
+
+  .hero3 {
+    display: flex;
+    width: 100%;
+    height: 93.3vh; /* Each hero takes up most of the screen */
+  }
+
+  .hero4 {
+    display: flex;
+    width: 100%;
+    height: 93.3vh; /* Each hero takes up most of the screen */
+  }
+
+  .hero5 {
+    display: flex;
+    width: 100%;
+    height: 93.3vh; /* Each hero takes up most of the screen */
+  }
+
+  .hero6 {
+    display: flex;
+    width: 100%;
+    height: 93.3vh; /* Each hero takes up most of the screen */
+  }
+
+  .hero7 {
+    display: flex;
+    width: 100%;
+    height: 93.3vh; /* Each hero takes up most of the screen */
+  }
+
+  .hero-left {
+    width: 50%;
+    background-color: #FBEEEE;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+
+  .img1{
+      width: auto;
+      height: 500px;
+      display: block;
+  }
+
+  .img2{
+      position: absolute;
+      top: 5;
+      left: 25;
+      transform: rotate(180deg);
+      width: auto; 
+      height: 500px;
+      opacity: 0.8;  /* optional, makes it see-through */
+  }
+
+  .hero-right {
+    width: 50%;
+    background-color: #FBEEEE;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 10rem;
+  }
+
+  .hero-right h1 {
+    font-family: Barlow;
+    font-size: 48px;
+  }
+
+  .one-red-dot {
+    color: red;
+  }
+
+  .h1{
+      font-size: 48px;
+  }
+
+  .hero-carousel-outer {
+    width: 100%;
+    height: 93.3vh;
+    overflow: hidden;
+    position: relative;
+  }
+
+  .hero-carousel-inner {
+    height: 300%; /* 3 slides */
+    width: 100%;
+    transition: transform 1s ease-in-out;
+  }
+
+  .slide {
+    height: 93.3vh;
+    width: 100%;
+    display: block;
+  }
+
+  /* Reuse your existing .hero1, .hero2, etc. styles as is */
+
+  /* Dots */
+  .carousel-indicators {
+    position: absolute;
+    bottom: 1rem;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 10px;
+  }
+
+  .dot {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background: #ccc;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+
+  .dot.active {
+    background: #555;
+  }
+
+  .hero-carousel {
+    width: 100%;
+    overflow: hidden;
+  }
+
+  .slide {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .hero1, .hero2, .hero3, .hero4,
+  .hero5, .hero6, .hero7 {
+    display: flex;
+    width: 100%;
+    height: 93.3vh;
+  }
+
+  .hero-left, .hero-right {
+    width: 50%;
+    background-color: #FBEEEE;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    padding: 0 2rem;
+  }
+
+  .hero-right h1 {
+    font-family: 'Barlow', sans-serif;
+    font-size: 48px;
+  }
+
+  .one-red-dot {
+    color: red;
+  }
+
+  .img1 {
+    height: 500px;
+    z-index: 1;
+  }
+
+  .img2 {
+    position: absolute;
+    transform: rotate(180deg);
+    height: 500px;
+    top: 10;
+    left: 20;
+    opacity: 0.8;
+    z-index: 0;
+  }
+
+  .custom-pagination {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 14px;
+    z-index: 10;
+  }
+
+  .custom-pagination .swiper-pagination-bullet {
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background-color: #c4c4c4; /* Grey like in the image */
+    opacity: 1;
+    transition: background-color 0.3s ease;
+  }
+
+  .custom-pagination .swiper-pagination-bullet-active {
+    background-color: #e74c3c; /* Red like in the image */
+  }
