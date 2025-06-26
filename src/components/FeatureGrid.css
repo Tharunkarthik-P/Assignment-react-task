@@ -1,10 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Barlow:wght@400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Barlow:wght@400;600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Barlow:wght@500;600;700&display=swap');
+
 .outer{
     display: flex;
     width: 100%;
     height: 100vh;
+    min-height: 600px;
 }
 
 .left{
@@ -13,6 +15,7 @@
     justify-content: center;
     align-items: center;
     position: relative;
+    min-width: 400px;
 }
 
 .right{
@@ -21,125 +24,144 @@
     justify-content: center;
     align-items: center;
     position: relative;
+    min-width: 400px;
 }
 
 .imgPhone{
     position: absolute;
-    top: 5.5rem;
-    left: 11rem;
+    top: 8vh;
+    left: 22%;
     width: 34%;
     height: auto;
     z-index: 2;
+    max-width: 200px;
+    min-width: 120px;
 }
 
 .imgRectangle{
     position: absolute;
-    top: 12.9rem;
-    left: 8.9rem;
+    top: 19vh;
+    left: 18%;
     width: 35%;
     height: auto;
-    /* transform: rotate(180deg); */
-    /* opacity: 0.8; */
     z-index: 1;
+    max-width: 220px;
+    min-width: 140px;
 }
 
 .greenbox{
     position: absolute;
-    top: 5.4rem;
-    left:31rem;
-    height: 4.3rem;
-    width: 15rem;
+    top: 8vh;
+    left: 62%;
+    height: 6vh;
+    width: 30%;
+    min-width: 240px;
+    min-height: 60px;
     background-color:rgba(213, 253, 173, 1);
     align-items: center;
     justify-content: center;
     display: flex;
     border-radius: 3px;
     font-family: "Barlow", sans-serif;
-    font-size: 21px;
+    font-size: clamp(16px, 2.5vw, 21px);
     font-weight: 500;
-    padding-top: 0.3rem;
+    padding: 0.5rem;
+    box-sizing: border-box;
 }
 
 .greenbox1{
     position: absolute;
-    top: 14.5rem;
-    left:29.8rem;
-    height: 4.0rem;
-    width: 17rem;
+    top: 21vh;
+    left: 60%;
+    height: 6vh;
+    width: 34%;
+    min-width: 270px;
+    min-height: 60px;
     background:transparent;
     align-items: center;
     justify-content: center;
     display: flex;
     border-radius: 3px;
-    font-size: 42px;
+    font-size: clamp(28px, 5vw, 42px);
     font-family: "Barlow", sans-serif;
     font-weight: 600;
+    box-sizing: border-box;
 }
 
 .greenbox2{
     position: absolute;
-    top: 23.2rem;
-    left:29.7rem;
-    height: 4.5rem;
-    width: 17rem;
+    top: 34vh;
+    left: 59%;
+    height: auto;
+    width: 34%;
+    min-width: 270px;
     background:transparent;
     align-items: center;
     justify-content: center;
     display: flex;
     border-radius: 3px;
-    font-size: 17px;
+    font-size: clamp(14px, 2vw, 17px);
     font-family: "Barlow", sans-serif;
     font-weight: 300;
+    padding: 1rem 0;
+    box-sizing: border-box;
 }
 
 .top-left {
     position: absolute;
-    height: 18.5rem;
-    width: 16rem;
-    left: 2.5rem;
-    top: 3.5rem;
+    height: 40%;
+    width: 40%;
+    min-width: 250px;
+    min-height: 280px;
+    left: 5%;
+    top: 6%;
     border-radius: 5px;
-    border: 2px solid black;         /* Make it thicker */
-    box-sizing: border-box; 
+    border: 2px solid black;
+    box-sizing: border-box;
 }
-
 
 .top-right{
     position: absolute;
-    height: 18.5rem;
-    width: 16rem;
-    left: 20.5rem;
-    top: 3.5rem;
+    height: 40%;
+    width: 40%;
+    min-width: 250px;
+    min-height: 280px;
+    left: 52%;
+    top: 6%;
     border-radius: 5px;
-    border: 2px solid black;         /* Make it thicker */
-    box-sizing: border-box;          /* Prevent content from spilling into border */
-    display: block;                  /* Ensure consistent block rendering */
+    border: 2px solid black;
+    box-sizing: border-box;
+    display: block;
     overflow: hidden;
 }
 
 .btm-left{
     position: absolute;
-    height: 18.5rem;
-    width: 16rem;
-    left: 2.5rem;
-    top: 23.5rem;
+    height: 40%;
+    width: 40%;
+    min-width: 250px;
+    min-height: 280px;
+    left: 5%;
+    top: 54%;
     border-radius: 5px;
-    border: 2px solid black;         /* Make it thicker */
-    box-sizing: border-box;          /* Prevent content from spilling into border */
-    display: block;                  /* Ensure consistent block rendering */
+    border: 2px solid black;
+    box-sizing: border-box;
+    display: block;
     overflow: hidden;
 }
 
 .btm-right{
     position: absolute;
-    height: 18.5rem;
-    width: 16rem;
-    left: 20.5rem;
-    top: 23.5rem;
+    height: 40%;
+    width: 40%;
+    min-width: 250px;
+    min-height: 280px;
+    left: 52%;
+    top: 54%;
     border-radius: 5px;
-    border: 2px solid black;         /* Make it thicker */
-    box-sizing: border-box;          /* Prevent content from spilling into border */
-    display: block;                  /* Ensure consistent block rendering */
+    border: 2px solid black;
+    box-sizing: border-box;
+    display: block;
     overflow: hidden;
 }
 
@@ -157,7 +179,7 @@
 .tlt, .trt, .blt, .brt{
     font-weight: 600;
     font-family: "Barlow", sans-serif;
-    font-size: 16px;
+    font-size: clamp(14px, 1.8vw, 16px);
     margin-top: 0.5rem;
     margin-left: 0.9rem;
 }
@@ -165,12 +187,14 @@
 .paratxt{
     font-family: "Barlow", sans-serif;
     font-weight: 300;
-    font-size: 16px;
+    font-size: clamp(12px, 1.6vw, 16px);
 }
 
 .audience{
     margin-top: 0.9rem;
     margin-left: 1.2rem;    
+    max-width: 40px;
+    height: auto;
 }
 
 .every{
@@ -180,10 +204,15 @@
 .qr{
     margin-top: 0.5rem;
     margin-left: 1.2rem;
+    max-width: 40px;
+    height: auto;
 }
+
 .stats{
     margin-top: 0.4rem;
     margin-left: 1.2rem;
+    max-width: 40px;
+    height: auto;
 }
 
 .noun-arrow{
@@ -191,64 +220,64 @@
     color: white;
     margin-top: 0rem;
     margin-left: 12.5rem;
-    /* position: absolute; */
     z-index: 10;
     background-color:rgba(232, 80, 94, 1) ;
-    
 }
 
 .red-box{
     margin-top: 7rem;
     margin-left: 12.5rem;
-
 }
 
 .arrow-button {
     background-color: rgba(232, 80, 94, 1);
     color: white;
     border-radius: 5px;
-    width: 75px;
-    height: 40px;
+    width: clamp(60px, 8vw, 75px);
+    height: clamp(32px, 5vh, 40px);
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 43px;
+    font-size: clamp(30px, 5vw, 43px);
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    margin-top: 6.4rem;
-    margin-left: 11.2rem
+    position: absolute;
+    bottom: 10%;
+    right: 10%;
 }
 
 .arrow-button-0 {
     background-color: rgba(232, 80, 94, 1);
     color: white;
     border-radius: 5px;
-    width: 74px;
-    height: 40px;
+    width: clamp(60px, 8vw, 74px);
+    height: clamp(32px, 5vh, 40px);
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 43px;
+    font-size: clamp(30px, 5vw, 43px);
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    margin-top: 6.4rem;
-    margin-left: 11.2rem
+    position: absolute;
+    bottom: 10%;
+    right: 10%;
 }
 
 .arrow-button-1 {
     background-color: rgba(232, 80, 94, 1);
     color: white;
     border-radius: 5px;
-    width: 75px;
-    height: 40px;
+    width: clamp(60px, 8vw, 75px);
+    height: clamp(32px, 5vh, 40px);
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 43px;
+    font-size: clamp(30px, 5vw, 43px);
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    margin-top: 6rem;
-    margin-left: 11.2rem
+    position: absolute;
+    bottom: 10%;
+    right: 10%;
 }
 
-Style for arrow buttons inside those cards */
+/* Style for arrow buttons inside those cards */
 .arrow-button, .arrow-button-1, .arrow-button-0 {
     display: flex;
     color: white;
@@ -263,4 +292,56 @@ Style for arrow buttons inside those cards */
     background-color: white;
     color: rgba(232, 80, 94, 1);
     transition: all 0.1s ease;  
+}
+
+/* Media queries for smaller screens */
+@media (max-width: 1024px) {
+    .outer {
+        flex-direction: column;
+        height: auto;
+        min-height: 100vh;
+    }
+    
+    .left, .right {
+        width: 100%;
+        min-height: 50vh;
+        padding: 2rem 0;
+    }
+    
+    .imgPhone, .imgRectangle {
+        position: relative;
+        top: auto;
+        left: auto;
+        margin: 1rem;
+    }
+    
+    .greenbox, .greenbox1, .greenbox2 {
+        position: relative;
+        top: auto;
+        left: auto;
+        margin: 1rem auto;
+        width: 80%;
+        max-width: 400px;
+    }
+    
+    .top-left, .top-right, .btm-left, .btm-right {
+        position: relative;
+        width: 45%;
+        height: 250px;
+        margin: 1rem;
+        display: inline-block;
+        vertical-align: top;
+    }
+}
+
+@media (max-width: 768px) {
+    .top-left, .top-right, .btm-left, .btm-right {
+        width: 90%;
+        margin: 1rem auto;
+        display: block;
+    }
+    
+    .right {
+        text-align: center;
+    }
 }

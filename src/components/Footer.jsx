@@ -6,8 +6,8 @@ export default function Footer(){
             <img src="src\assets\last-up-arrow-box.png" alt="box" className='last-box'/>
             <hr class="white-line" />
             <div class="caret-up"></div>
-            <div className='cr'>©</div>
-            <div className='copyrights'>Copyright 2025. All Rights Reserved.</div>
+            <div className='cr'></div>
+            <div className='copyrights'>© Copyright 2025. All Rights Reserved.</div>
             <div className='TM'>
                 <img src="src\assets\thoughtmetrics.png" alt="tm" />
             </div>
