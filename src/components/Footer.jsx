@@ -1,22 +1,26 @@
 import './Footer.css'
-
+import LastBox from '../assets/last-up-arrow-box.png';
+import TM from '../assets/thoughtmetrics.png';
+import LinkedIn from '../assets/linkedin.png';
+import X_logo from '../assets/X_logo.png';
+import XMLID from '../assets/XMLID.png';
 export default function Footer(){
     return(
         <div className='footer'>
-            <img src="src\assets\last-up-arrow-box.png" alt="box" className='last-box'/>
+            <img src={LastBox} alt="box" className='last-box'/>
             <hr class="white-line" />
             <div class="caret-up"></div>
             <div className='cr'></div>
             <div className='copyrights'>© Copyright 2025. All Rights Reserved.</div>
             <div className='TM'>
-                <img src="src\assets\thoughtmetrics.png" alt="tm" />
+                <img src={TM} alt="tm" />
             </div>
             <div class="circle"></div>
             <div class="circle2"></div>
             <div class="circle3"></div>
-            <div><img src="src\assets\linkedin.png" alt="" className='c'/></div>
-            <div><img src="src\assets\X_logo.png" alt="" className='c2'/></div>
-            <div><img src="src\assets\XMLID.png" alt="" className='c3'/></div>
+            <div><img src={LinkedIn} alt="" className='c'/></div>
+            <div><img src={X_logo} alt="" className='c2'/></div>
+            <div><img src={XMLID} alt="" className='c3'/></div>
             <div className="footer-columns">
               <div className="footer-column">
                 <h4>Research Methods</h4>

@@ -111,8 +111,8 @@
 
 /* White Line */
 .white-line {
-    position: absolute;
-    bottom: 3rem;
+    position: relative;
+    bottom:-12.5rem;
     left: 0;
     right: 0;
     border: none;
@@ -143,14 +143,15 @@
 /* Last Box and Arrow */
 .last-box {
     position: absolute;
-    bottom: 1rem;
-    right: 2rem;
+    bottom: 0.4rem;
+    right: 1.6rem;
     z-index: 2;
 }
 
 .last-box img {
     width: 40px;
     height: 40px;
+    
 }
 
 .caret-up {
@@ -161,7 +162,7 @@
     transform: rotate(135deg);
     background: transparent;
     position: absolute;
-    bottom: 1.5rem;
+    bottom: 1.1rem;
     right: 2.8rem;
     z-index: 3;
 }
@@ -310,7 +311,7 @@
     }
     
     .last-box {
-        right: 1rem;
+        right: 0.5rem;
     }
     
     .last-box img {

@@ -4,7 +4,9 @@ import { Autoplay, Pagination } from 'swiper/modules';
 import 'swiper/css';
 import 'swiper/css/pagination';
 import './HeroCarousel.css';
-
+import VecImg from '../assets/Vector.png';
+import VecImg2 from '../assets/Vector2.png';
+import VecImg3 from '../assets/Vector3.png';
 export default function HeroCarousel() {
   return (
     <section className="hero-carousel">
@@ -22,7 +24,7 @@ export default function HeroCarousel() {
           <div className="slide">
             <div className="hero3">
               <div className="hero-left">
-                <img src="src/assets/Vector.png" alt="Vector image 3" />
+                <img src={VecImg} alt="Vector image 3" />
               </div>
               <div className="hero-right">
                 <h1>
@@ -38,7 +40,7 @@ export default function HeroCarousel() {
           <div className="slide">
             <div className="hero4">
               <div className="hero-left">
-                <img src="src/assets/Vector2.png" alt="Vector2 image 4" />
+                <img src={VecImg2} alt="Vector2 image 4" />
               </div>
               <div className="hero-right">
                 <h1>
@@ -55,8 +57,8 @@ export default function HeroCarousel() {
           <div className="slide">
             <div className="hero7">
               <div className="hero-left">
-                <img src="src/assets/Vector3.png" alt="Vector3 image" className='img1' />
-                <img src="src/assets/Vector3.png" alt="Vector4 image" className='img2' />
+                <img src={VecImg3} alt="Vector3 image" className='img1' />
+                <img src={VecImg3} alt="Vector4 image" className='img2' />
               </div>
               <div className="hero-right">
                 <h1>

@@ -16,7 +16,7 @@
 .blog-top {
     position: absolute;
     top: 2rem;
-    left: 43%;
+    left: 47%;
     transform: translateX(-50%);
     width: calc(100% - 4rem);
     max-width: 1200px;
